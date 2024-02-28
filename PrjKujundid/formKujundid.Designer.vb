@@ -35,9 +35,9 @@ Partial Class formKujundid
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -68,6 +68,7 @@ Partial Class formKujundid
         '
         'txtYmbermoot
         '
+        Me.txtYmbermoot.Enabled = False
         Me.txtYmbermoot.Location = New System.Drawing.Point(143, 70)
         Me.txtYmbermoot.Name = "txtYmbermoot"
         Me.txtYmbermoot.Size = New System.Drawing.Size(100, 22)
@@ -75,6 +76,7 @@ Partial Class formKujundid
         '
         'txtPindala
         '
+        Me.txtPindala.Enabled = False
         Me.txtPindala.Location = New System.Drawing.Point(143, 97)
         Me.txtPindala.Name = "txtPindala"
         Me.txtPindala.Size = New System.Drawing.Size(100, 22)
@@ -165,6 +167,24 @@ Partial Class formKujundid
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "GroupBox3"
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(6, 97)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(53, 16)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "Pindala"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(6, 70)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(77, 16)
+        Me.Label4.TabIndex = 13
+        Me.Label4.Text = "Ymbermoot"
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -173,24 +193,6 @@ Partial Class formKujundid
         Me.Label3.Size = New System.Drawing.Size(81, 16)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Kujundi tyyp:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 70)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 13)
-        Me.Label4.TabIndex = 13
-        Me.Label4.Text = "Ymbermoot"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 97)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(44, 13)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Pindala"
         '
         'formKujundid
         '
