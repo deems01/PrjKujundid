@@ -38,6 +38,9 @@ Partial Class formKujundid
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.cbTapsus = New System.Windows.Forms.ComboBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -194,11 +197,42 @@ Partial Class formKujundid
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Kujundi tyyp:"
         '
+        'cbTapsus
+        '
+        Me.cbTapsus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cbTapsus.FormattingEnabled = True
+        Me.cbTapsus.Items.AddRange(New Object() {"1", "2", "3"})
+        Me.cbTapsus.Location = New System.Drawing.Point(106, 135)
+        Me.cbTapsus.Name = "cbTapsus"
+        Me.cbTapsus.Size = New System.Drawing.Size(121, 24)
+        Me.cbTapsus.TabIndex = 13
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(12, 138)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(53, 16)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "Tapsus"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(12, 201)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(49, 13)
+        Me.Label7.TabIndex = 15
+        Me.Label7.Text = "Tulemus"
+        '
         'formKujundid
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.cbTapsus)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -210,6 +244,7 @@ Partial Class formKujundid
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -229,4 +264,7 @@ Partial Class formKujundid
     Friend WithEvents Label3 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents cbTapsus As ComboBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
 End Class
