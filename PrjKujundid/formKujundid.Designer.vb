@@ -86,7 +86,7 @@ Partial Class formKujundid
         '
         Me.btnKolmnurk.Location = New System.Drawing.Point(68, 30)
         Me.btnKolmnurk.Name = "btnKolmnurk"
-        Me.btnKolmnurk.Size = New System.Drawing.Size(75, 23)
+        Me.btnKolmnurk.Size = New System.Drawing.Size(86, 23)
         Me.btnKolmnurk.TabIndex = 5
         Me.btnKolmnurk.Text = "Kolmnurk"
         Me.btnKolmnurk.UseVisualStyleBackColor = True
@@ -95,7 +95,7 @@ Partial Class formKujundid
         '
         Me.btnRuut.Location = New System.Drawing.Point(68, 60)
         Me.btnRuut.Name = "btnRuut"
-        Me.btnRuut.Size = New System.Drawing.Size(75, 23)
+        Me.btnRuut.Size = New System.Drawing.Size(86, 23)
         Me.btnRuut.TabIndex = 6
         Me.btnRuut.Text = "Ruut"
         Me.btnRuut.UseVisualStyleBackColor = True
@@ -104,7 +104,7 @@ Partial Class formKujundid
         '
         Me.btnRistkylik.Location = New System.Drawing.Point(68, 90)
         Me.btnRistkylik.Name = "btnRistkylik"
-        Me.btnRistkylik.Size = New System.Drawing.Size(75, 23)
+        Me.btnRistkylik.Size = New System.Drawing.Size(86, 23)
         Me.btnRistkylik.TabIndex = 7
         Me.btnRistkylik.Text = "Ristkylik"
         Me.btnRistkylik.UseVisualStyleBackColor = True
@@ -147,7 +147,7 @@ Partial Class formKujundid
         Me.GroupBox2.Controls.Add(Me.btnRistkylik)
         Me.GroupBox2.Location = New System.Drawing.Point(309, 20)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(200, 134)
+        Me.GroupBox2.Size = New System.Drawing.Size(229, 134)
         Me.GroupBox2.TabIndex = 11
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Kujundid"
@@ -162,7 +162,7 @@ Partial Class formKujundid
         Me.GroupBox3.Controls.Add(Me.txtPindala)
         Me.GroupBox3.Location = New System.Drawing.Point(12, 259)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(249, 179)
+        Me.GroupBox3.Size = New System.Drawing.Size(321, 179)
         Me.GroupBox3.TabIndex = 12
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "GroupBox3"
